@@ -1,3 +1,7 @@
+- d324177 - **InferiorAK** : theme fixed - 2025-10-21 16:50:00 +0600
+- bc1b4b3 - **InferiorAK** : Cards distortion and toggle button style fixed - 2025-10-21 16:49:38 +0600
+- 92d8e54 - **InferiorAK** : Toggle button added and fixed theme button - 2025-10-21 16:48:54 +0600
+- 8694d45 - **InferiorAK** : Update Log - 2025-10-21 15:29:08 +0600
 - acadea2 - **InferiorAK** : Bug fixed for mobile in Member cards - 2025-10-21 15:28:37 +0600
 - bb11d2e - **InferiorAK** : Update Log - 2025-10-21 15:15:36 +0600
 - 241d178 - **InferiorAK** : Adding Functionalities - 2025-10-21 15:15:36 +0600
