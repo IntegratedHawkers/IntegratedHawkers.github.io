@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrated Hawkers - CTF Team</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/logo.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Snowfall Effect -->
+    <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+    </div>
+
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2">
+            <circle cx="12" cy="12" r="5" />
+            <line x1="12" y1="1" x2="12" y2="3" />
+            <line x1="12" y1="21" x2="12" y2="23" />
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+            <line x1="1" y1="12" x2="3" y2="12" />
+            <line x1="21" y1="12" x2="23" y2="12" />
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+        </svg>
+        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+        </svg>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo-icon"><img src="assets/images/logo.ico" alt="Logo"></span>
+                <span class="brand-name">Integrated Hawkers</span>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#history" class="nav-link">History</a></li>
+                <li><a href="#team" class="nav-link">Team</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="typing-text">Integrated Hawkers</span>
+            </h1>
+            <p class="hero-subtitle typing-subtitle">We won't stop Chasing</p>
+            <p class="hero-tagline">Ambitious CTF Team | Security Researchers | Persistent Hackers</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">80+</span>
+                    <span class="stat-label">CTFs Participated</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">4+</span>
+                    <span class="stat-label">Onsite Qualifies</span>
+                </div>
+                <!-- <div class="stat-item">
+                    <span class="stat-number">0+</span>
+                    <span class="stat-label">Awards Won</span>
+                </div> -->
+                <div class="stat-item">
+                    <span class="stat-number">8+</span>
+                    <span class="stat-label">Team Members</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>We are <strong>Integrated Hawkers</strong>, a passionate team of cybersecurity enthusiasts
+                        dedicated to mastering the art of Capture The Flag competitions.</p>
+                    <p>Our team specializes in:</p>
+                    <ul class="skills-list">
+                        <li>Web Exploitation</li>
+                        <li>Reverse Engineering</li>
+                        <li>Cryptography</li>
+                        <li>Binary Exploitation</li>
+                        <li>Forensics</li>
+                        <li>OSINT</li>
+                    </ul>
+                </div>
+                <div class="about-visual">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="window-content">
+                            <code>
+                                <span class="keyword">class</span> <span class="class-name">IntegratedHawkers</span>:<br>
+                                &nbsp;&nbsp;<span class="keyword">def</span> <span class="function">__init__</span>(self):<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;self.mission = <span class="string">"We hunt for fun, not for Flex"</span><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;self.status = <span class="string">"Active"</span><br>
+                                <br>
+                                &nbsp;&nbsp;<span class="keyword">def</span> <span class="function">compete</span>(self):<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">return</span> <span class="string">"Victory"</span>
+                            </code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creation History Section -->
+    <section id="history" class="history">
+        <div class="container">
+            <h2 class="section-title">Creation History</h2>
+            <div class="history-content">
+                <div class="history-text">
+                    <h3>Team's Journey Begins</h3>
+                    <p>
+                        In <b> April 20, 2024 </b>, <b>InferiorAK</b> who was passionate in Cybersecurity founded his
+                        own CTF team named <b> "Integrated Hawkers" </b> with a vision to create a powerhouse team that
+                        could tackle any challenge thrown their way. At first it was a team of solo player, InferiorAK
+                        all by his own and participated in various CTFs to gain experience and knowledge. In a few
+                        months, he managed to gather like-minded individuals who shared his passion and drive. But only
+                        a few Persistent ones stayed long enough to build the core team after a year later.
+                    </p>
+
+                    <h3>Gist behind the Name</h3>
+                    <p>
+                        "Integrated Hawkers" represents our philosophy - like "Integrated" refers the unity of hackers
+                        accross the team. And "Hawkers" is the distorted version so called "Hackers" in Communities.
+                    </p>
+
+                    <h3>Growing Stronger</h3>
+                    <p>Over the months, we refined our methodologies, established practice routines, and developed
+                        internal tools. Each competition taught us valuable lessons, and each team member grew
+                        exponentially in their domain.</p>
+
+                    <h3>Today & Beyond</h3>
+                    <p>
+                        Now recognized as one of the premier CTF teams, Integrated Hawkers continues to push boundaries.
+                        We've participated in 80+ competitions both National & International, and built a reputation for
+                        excellence. But we're just getting started - our journey continues as we aim for international
+                        recognition and inspire the next generation of security researchers. <br>
+                        Though, we still havent won any awards but In Sha Allah we will be on the screen very soon. Cz,
+                        now the team is on it's flow.
+                    </p>
+                </div>
+                <div class="history-visual">
+                    <div class="history-stats-box">
+                        <h3>By The Numbers</h3>
+                        <div class="history-stat">
+                            <span class="history-stat-number">2024</span>
+                            <span class="history-stat-label">Year Founded</span>
+                        </div>
+                        <div class="history-stat">
+                            <span class="history-stat-number">80+</span>
+                            <span class="history-stat-label">CTFs Participated</span>
+                        </div>
+                        <!-- <div class="history-stat">
+                            <span class="history-stat-number">0+</span>
+                            <span class="history-stat-label">Awards Won</span>
+                        </div> -->
+                        <div class="history-stat">
+                            <span class="history-stat-number">4+</span>
+                            <span class="history-stat-label">Active Members</span>
+                        </div>
+                    </div>
+                    <div class="history-quote">
+                        <blockquote>
+                            <p>"Compete with yourself rather than comparing with others"</p>
+                            <cite>- InferiorAK</cite>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2 class="section-title">Our Active Team</h2>
+            <!-- Leader Row -->
+            <div class="leader-row">
+                <div class="team-card leader-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="member-image-container">
+                                <img src="assets/images/me.jpg" alt="InferiorAK" class="member-image"
+                                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="member-avatar fallback-avatar" style="display: none;">👨‍💻</div>
+                                <div class="leader-badge">👑 Leader</div>
+                            </div>
+                            <h3 class="member-name">InferiorAK</h3>
+                            <p class="member-role">Founder & Team Leader</p>
+                            <div class="member-specialties">
+                                <span class="specialty-tag">Steganography</span>
+                                <span class="specialty-tag">OSINT</span>
+                                <span class="specialty-tag">Forensics</span>
+                                <span class="specialty-tag">Miscellaneous</span>
+                                <span class="specialty-tag">Threat Intelligence</span>
+                            </div>
+                            <div class="social-links">
+                                <a href="https://github.com/inferiorak" target="_blank" aria-label="GitHub"
+                                    class="social-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                    </svg>
+                                </a>
+                                <a href="https://medium.com/@inferiorak" target="_blank" aria-label="Medium"
+                                    class="social-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/>
+                                    </svg>
+                                </a>
+                                <a href="https://twitter.com/inferiorak" target="_blank" aria-label="Twitter"
+                                    class="social-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                                    </svg>
+                                </a>
+                                <a href="https://linkedin.com/in/taseen-kpc" target="_blank" aria-label="LinkedIn"
+                                    class="social-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h4>InferiorAK</h4>
+                            <p class="member-bio">Love to play with data hiding techniques, and retrieve hidden
+                                information.
+                                I'm a Gray Hat minded enthusiast.
+                                Also love to work with backdoors, web shells, and analyzing malware behavior besides
+                                exploiting mango people.
+                                Have an attraction to playing with human psychology as well.
+                            </p>
+                            <div class="expertise-list">
+                                <div class="expertise-item">🔍 Steganography</div>
+                                <div class="expertise-item">🌐 OSINT</div>
+                                <div class="expertise-item">📁 Forensics</div>
+                                <div class="expertise-item">🎯 Threat Intel</div>
+                                <div class="expertise-item">🧩 Misc</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Members Row -->
+            <div class="members-row">
+                <div class="team-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="member-image-container">
+                                <img src="assets/images/shorif.jpg" alt="MD Shorif Ahammed" class="member-image"
+                                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="member-avatar fallback-avatar" style="display: none;">🌐</div>
+                            </div>
+                            <h3 class="member-role">siuxsa</h3>
+                            <p class="member-name">MD Shorif Ahammed</p>
+                            <p class="member-role">Web Exploitation Expert</p>
+                            <div class="member-specialties">
+                                <span class="specialty-tag">Web Exploitation</span>
+                                <span class="specialty-tag">Security</span>
+                            </div>
+                            <div class="social-links">
+                                <a href="https://github.com/siuxsa" target="_blank" aria-label="GitHub"
+                                    class="social-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                    </svg>
+                                </a>
+                                <a href="https://twitter.com/shorifctf" target="_blank" aria-label="Twitter"
+                                    class="social-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                                    </svg>
+                                </a>
+                                <a href="https://linkedin.com/in/siuxsa" target="_blank" aria-label="LinkedIn"
+                                    class="social-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h4>MD Shorif Ahammed</h4>
+                            <p class="member-bio">Expert web penetration tester who excels at finding and exploiting
+                                vulnerabilities in web applications. Master of SQL injection, XSS, CSRF, and advanced
+                                web security techniques.</p>
+                            <div class="expertise-list">
+                                <div class="expertise-item">🌐 Web Exploitation</div>
+                                <div class="expertise-item">💉 SQL Injection</div>
+                                <div class="expertise-item">🔒 XSS & CSRF</div>
+                                <div class="expertise-item">🛡️ WAF Bypass</div>
+                                <div class="expertise-item">🔓 Authentication Bypass</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="member-image-container">
+                                <img src="assets/images/ruan.jpg" alt="Mahdi Hosen Ruan" class="member-image"
+                                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="member-avatar fallback-avatar" style="display: none;">🔐</div>
+                            </div>
+                            <h3 class="member-role">B1u3_Gho5t</h3>
+                            <p class="member-name">Mahdi Hosen Ruan</p>
+                            <p class="member-role">Crypto & Reverse Expert</p>
+                            <div class="member-specialties">
+                                <span class="specialty-tag">Cryptography</span>
+                                <span class="specialty-tag">Reverse Eng.</span>
+                                <span class="specialty-tag">OSINT</span>
+                            </div>
+                            <div class="social-links">
+                                <a href="#" target="_blank" aria-label="GitHub"
+                                    class="social-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                    </svg>
+                                </a>
+                                <a href="#" target="_blank" aria-label="Twitter"
+                                    class="social-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                                    </svg>
+                                </a>
+                                <a href="#" target="_blank" aria-label="LinkedIn"
+                                    class="social-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h4>Mahdi Hosen Ruan</h4>
+                            <p class="member-bio">Cryptography genius and reverse engineering specialist. Breaks complex
+                                encryption schemes and dissects binaries to understand their inner workings. Also
+                                skilled in OSINT operations.</p>
+                            <div class="expertise-list">
+                                <div class="expertise-item">🔐 Cryptography</div>
+                                <div class="expertise-item">🔄 Reverse Engineering</div>
+                                <div class="expertise-item">🔍 OSINT</div>
+                                <div class="expertise-item">🧮 Mathematical Cryptanalysis</div>
+                                <div class="expertise-item">🛠️ Binary Analysis</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="member-image-container">
+                                <img src="assets/images/rabbani.jpg" alt="MD Golam Rabbani" class="member-image"
+                                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="member-avatar fallback-avatar" style="display: none;">⚡</div>
+                            </div>
+                            <h3 class="member-role">Bani</h3>
+                            <p class="member-name">MD Golam Rabbani</p>
+                            <p class="member-role">Binary & Pwn Specialist</p>
+                            <div class="member-specialties">
+                                <span class="specialty-tag">Reverse Eng.</span>
+                                <span class="specialty-tag">Web</span>
+                                <span class="specialty-tag">Pwn</span>
+                            </div>
+                            <div class="social-links">
+                                <a href="https://github.com/imgolamrabbani" target="_blank" aria-label="GitHub"
+                                    class="social-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                    </svg>
+                                </a>
+                                <a href="https://twitter.com/imgolamrabbani" target="_blank" aria-label="Twitter"
+                                    class="social-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                                    </svg>
+                                </a>
+                                <a href="https://www.linkedin.com/in/md-golam-rabbani" target="_blank" aria-label="LinkedIn"
+                                    class="social-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h4>Golam Rabbani</h4>
+                            <p class="member-bio">Binary exploitation master with deep expertise in reverse engineering
+                                and pwn challenges. Combines web exploitation skills with low-level system understanding
+                                to dominate CTF competitions.</p>
+                            <div class="expertise-list">
+                                <div class="expertise-item">🔧 Reverse Engineering</div>
+                                <div class="expertise-item">🌐 Web Exploitation</div>
+                                <div class="expertise-item">💥 Binary Pwn</div>
+                                <div class="expertise-item">🔩 Buffer Overflow</div>
+                                <div class="expertise-item">🎯 Exploit Development</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+
+            <!-- Team Formation at Top -->
+            <div class="formation-section-top">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Team Formation</h3>
+                            <span class="timeline-date">20 Apr 2024</span>
+                            <p>Integrated Hawkers officially established by InferiorAK</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="achievements-columns">
+                <!-- Inter University CTFs -->
+                <div class="achievement-column">
+                    <h3 class="column-title">🎓 Inter University CTFs</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>BUP CTF 2025</h4>
+                                <div class="event-group">
+                                    <div class="event-round">
+                                        <span class="timeline-date">25 Sept 2024 - Final</span>
+                                        <p><b>18th</b> Place (Onsite)</p>
+                                    </div>
+                                    <div class="event-round">
+                                        <span class="timeline-date">20 Sept 2025 - Preli</span>
+                                        <p><b>18th</b> Place</p>
+                                    </div>
+                                </div>
+                                <p><b>Players:</b> InferiorAK, Ruan, Jifat & Rifat</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>EWU NRF CTF 2024</h4>
+                                <div class="event-group">
+                                    <div class="event-round">
+                                        <span class="timeline-date">09 Nov 2024 - Final</span>
+                                        <p><b>28th</b> Place (Onsite)</p>
+                                    </div>
+                                    <div class="event-round">
+                                        <span class="timeline-date">23 Oct 2024 - Preli</span>
+                                        <p><b>10th</b> Place</p>
+                                    </div>
+                                </div>
+                                <p><b>Players:</b> InferiorAK & Mehedi Hasan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- National CTFs -->
+                <div class="achievement-column">
+                    <h3 class="column-title">🏆 National CTFs</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>DIU CyberCon CTF 2025</h4>
+                                <div class="event-group">
+                                    <div class="event-round">
+                                        <span class="timeline-date">25 Oct 2025 - Final</span>
+                                        <p><b>TBA</b> Place (Onsite)</p>
+                                    </div>
+                                    <div class="event-round">
+                                        <span class="timeline-date">18 Oct 2025 - Preli</span>
+                                        <p><b>13th</b> Place</p>
+                                    </div>
+                                </div>
+                                <p><b>Players:</b> InferiorAK, siuxsa, Ruan & Golam Rabbani</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>MIST Cyber Drill 2025</h4>
+                                <div class="event-group">
+                                    <div class="event-round">
+                                        <span class="timeline-date">16 May 2025 - Final</span>
+                                        <p><b>17th</b> Place (Onsite)</p>
+                                    </div>
+                                    <div class="event-round">
+                                        <span class="timeline-date">12 May 2025 - Preli</span>
+                                        <p><b>11th</b> Place</p>
+                                    </div>
+                                </div>
+                                <p><b>Players:</b> InferiorAK, siuxsa, RootHarpy & Mehedi Hasan</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Phoenix Summit CTF 2025</h4>
+                                <div class="event-group">
+                                    <div class="event-round">
+                                        <span class="timeline-date">10 May 2025 - Final</span>
+                                        <p><b>18th</b> Place</p>
+                                    </div>
+                                </div>
+                                <p><b>Players:</b> InferiorAK, siuxsa, RootHarpy, Mehedi Hasan & Rafi Ibrahim</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- International CTFs -->
+                <div class="achievement-column">
+                    <h3 class="column-title">🌍 International CTFs</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Brunner CTF 2025</h4>
+                                <div class="event-group">
+                                    <div class="event-round">
+                                        <span class="timeline-date">22 Aug 2025</span>
+                                        <p><b>138th / 1158</b> Place</p>
+                                    </div>
+                                </div>
+                                <p><b>Players:</b> InferiorAK (Solo)</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>BDSec CTF 2025</h4>
+                                <div class="event-group">
+                                    <div class="event-round">
+                                        <span class="timeline-date">20 July 2025</span>
+                                        <p><b>35th / 642</b> Place</p>
+                                    </div>
+                                </div>
+                                <p><b>Players:</b> InferiorAK, siuxsa, white_devil, Mehedi & rafiibrahim8</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>ECTF 2025</h4>
+                                <div class="event-group">
+                                    <div class="event-round">
+                                        <span class="timeline-date">20 Jan 2025</span>
+                                        <p><b>62nd / 536</b> Place</p>
+                                    </div>
+                                </div>
+                                <p><b>Players:</b> InferiorAK (Solo)</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Codefest CTF 2025</h4>
+                                <div class="event-group">
+                                    <div class="event-round">
+                                        <span class="timeline-date">25 Jan 2025</span>
+                                        <p><b>91st / 486</b> Place</p>
+                                    </div>
+                                </div>
+                                <p><b>Players:</b> InferiorAK (Solo)</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>KnightCTF 2025</h4>
+                                <div class="event-group">
+                                    <div class="event-round">
+                                        <span class="timeline-date">20 Jan 2025</span>
+                                        <p><b>91st / 759</b> Place</p>
+                                    </div>
+                                </div>
+                                <p><b>Players:</b> InferiorAK & Mehedi Hasan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <a href="mailto:integratedhawkers@gmail.com" target="_blank" class="contact-item">
+                        <span class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </span>
+                        <div>
+                            <h4>Email</h4>
+                            <p>integratedhawkers@gmail.com</p>
+                        </div>
+                    </a>
+                    <a href="https://www.facebook.com/IntegratedHawkers" target="_blank" class="contact-item">
+                        <span class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </span>
+                        <div>
+                            <h4>Facebook</h4>
+                            <p>Integrated Hawkers</p>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" class="contact-item">
+                        <span class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                            </svg>
+                        </span>
+                        <div>
+                            <h4>Twitter</h4>
+                            <p>#</p>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" class="contact-item">
+                        <span class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.956-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.946 2.418-2.157 2.418z"/>
+                            </svg>
+                        </span>
+                        <div>
+                            <h4>Discord</h4>
+                            <p>#</p>
+                        </div>
+                    </a>
+                    <a href="https://github.com/IntegratedHawkers" target="_blank" class="contact-item">
+                        <span class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </span>
+                        <div>
+                            <h4>GitHub</h4>
+                            <p>IntegratedHawkers</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Integrated Hawkers. All rights reserved.</p>
+            <p class="footer-tagline">Hunt. Capture. Dominate.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
