@@ -1,0 +1,5 @@
+- 241d178 - **InferiorAK** : Adding Functionalities - 2025-10-21 15:15:36 +0600
+- 3b9dcc2 - **InferiorAK** : Adding Design - 2025-10-21 15:15:36 +0600
+- 3e37319 - **InferiorAK** : Main Webpage - 2025-10-21 15:15:36 +0600
+- d28a6c4 - **InferiorAK** : Apache License 2.0 - 2025-10-21 15:15:36 +0600
+- 91dcf6e - **InferiorAK** : Addig Assets - 2025-10-21 15:15:36 +0600
