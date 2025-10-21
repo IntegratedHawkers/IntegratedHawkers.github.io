@@ -1,3 +1,5 @@
+- acadea2 - **InferiorAK** : Bug fixed for mobile in Member cards - 2025-10-21 15:28:37 +0600
+- bb11d2e - **InferiorAK** : Update Log - 2025-10-21 15:15:36 +0600
 - 241d178 - **InferiorAK** : Adding Functionalities - 2025-10-21 15:15:36 +0600
 - 3b9dcc2 - **InferiorAK** : Adding Design - 2025-10-21 15:15:36 +0600
 - 3e37319 - **InferiorAK** : Main Webpage - 2025-10-21 15:15:36 +0600
