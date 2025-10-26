@@ -1,3 +1,6 @@
+- 0839f7d - **InferiorAK** : Added DIU CyberCon CTF Position - 2025-10-26 12:16:38 +0600
+- 109c363 - **InferiorAK** : Create static.yml - 2025-10-21 16:54:27 +0600
+- 8a979b6 - **InferiorAK** : Update Logs - 2025-10-21 16:50:34 +0600
 - d324177 - **InferiorAK** : theme fixed - 2025-10-21 16:50:00 +0600
 - bc1b4b3 - **InferiorAK** : Cards distortion and toggle button style fixed - 2025-10-21 16:49:38 +0600
 - 92d8e54 - **InferiorAK** : Toggle button added and fixed theme button - 2025-10-21 16:48:54 +0600
