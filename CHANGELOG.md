@@ -1,3 +1,8 @@
+- 0694687 - **InferiorAK** : Design All ok - 2025-10-26 23:31:48 +0600
+- ac17466 - **InferiorAK** : Functionality Improved - 2025-10-26 23:31:09 +0600
+- 18ec5c4 - **InferiorAK** : UI Upgraded - 2025-10-26 23:30:41 +0600
+- 01dd10c - **InferiorAK** : new images - 2025-10-26 23:30:11 +0600
+- 5870057 - **InferiorAK** : Update Logs - 2025-10-26 12:18:31 +0600
 - 0839f7d - **InferiorAK** : Added DIU CyberCon CTF Position - 2025-10-26 12:16:38 +0600
 - 109c363 - **InferiorAK** : Create static.yml - 2025-10-21 16:54:27 +0600
 - 8a979b6 - **InferiorAK** : Update Logs - 2025-10-21 16:50:34 +0600
