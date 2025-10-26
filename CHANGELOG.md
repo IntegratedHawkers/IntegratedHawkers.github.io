@@ -1,3 +1,8 @@
+- aaf8c67 - **InferiorAK** : style added - 2025-10-26 23:52:40 +0600
+- b92dece - **InferiorAK** : func added - 2025-10-26 23:52:36 +0600
+- 1d2e027 - **InferiorAK** : CTF Hosting Added - 2025-10-26 23:48:03 +0600
+- 8bf25a2 - **InferiorAK** : Image added - 2025-10-26 23:47:22 +0600
+- b3b0fba - **InferiorAK** : Update Log - 2025-10-26 23:32:22 +0600
 - 0694687 - **InferiorAK** : Design All ok - 2025-10-26 23:31:48 +0600
 - ac17466 - **InferiorAK** : Functionality Improved - 2025-10-26 23:31:09 +0600
 - 18ec5c4 - **InferiorAK** : UI Upgraded - 2025-10-26 23:30:41 +0600
